@@ -1,0 +1,7 @@
+This is RMI POC where source code is divided into 3 eclipse project.
+
+1- common interfaces which will be distributed to Rmiregistry server, client , server.
+2- server side , which will provide Implementation for given interfaces.
+3- client side , which will lookup rmiregistry to locate server side implementation, will use implementation. but implementation class will not visible to client, client can invoke interface call only.
+
+ 
